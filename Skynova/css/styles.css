@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://png.pngtree.com/background/20210715/original/pngtree-pink-love-simple-background-picture-image_1293909.jpg');
+  background-size: cover;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url('https://static.vecteezy.com/system/resources/previews/037/297/268/large_2x/ai-generated-cosmetic-make-up-products-on-a-pink-background-free-photo.jpg');
+  color: white;
+  text-align: center;
+  padding: 3em; /* Increased padding for more height */
+  height: 260px; /* Set height */
+  width: 100%; /* Set width to 100% of the container */
+  background-size: cover; /* Ensure the background image covers the entire header */
+  background-position: center; /* Center the background image */
+}
+
+header {
+  background-color: #ff6b81;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+
+
+button {
+  background-color: #ff6b81;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+ 
+}
+button:last-child {
+  margin-right: 0; /* Removes margin from the last button */
+}
+button:hover {
+  background-color: #ff4c63;
+}
+
+#categories button {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Grid layout for product cards */
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Responsive grid with a minimum width */
+  gap: 20px; /* Space between product cards */
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#cart-items {
+  margin: 20px;
+}
+
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #ff6b81;
+  color: white;
+  padding: 5px 0; /* Minimized padding */
+  font-size: 14px; /* Smaller font size */
+  bottom: 90; /* Align it to the bottom */
+  width: 100%; /* Make the footer stretch across the full width */
+}
